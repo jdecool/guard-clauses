@@ -1,0 +1,50 @@
+{
+    "name": "jdecool/guard-clauses",
+    "description": "Guard clauses pattern implementation library",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jérémy DECOOL",
+            "email": "contact@jdecool.fr"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "webmozart/assert": "^1.11"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.45",
+        "friendsofphp/php-cs-fixer": "^3.68",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "JDecool\\GuardClauses\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JDecool\\GuardClauses\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "scripts": {
+        "lint": [
+            "@lint.cs",
+            "@lint.phpstan"
+        ],
+        "lint.cs": "PHP_CS_FIXER_IGNORE_ENV=1 php-cs-fixer fix --diff --verbose",
+        "lint.cs@ci": "PHP_CS_FIXER_IGNORE_ENV=1 php-cs-fixer fix --diff --verbose --dry-run",
+        "lint.phpstan": "phpstan analyse",
+        "test": "phpunit",
+        "test@ci": "phpunit --testdox --coverage-text --coverage-clover coverage.xml"
+    }
+}
