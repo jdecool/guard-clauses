@@ -1,9 +1,10 @@
 # Guard Clauses
 
-[![Latest Stable Version](https://poser.pugx.org/jdecool/guard-clauses/v/stable.png)](https://packagist.org/packages/jdecool/guard-clauses)
+[![Latest Stable Version](https://poser.pugx.org/jdecool/guard-clauses/v/stable)](https://packagist.org/packages/jdecool/guard-clauses)
 [![Build Status](https://github.com/jdecool/guard-clauses/workflows/CI/badge.svg?branch=main)](https://github.com/jdecool/guard-clauses/actions)
-[![Total Downloads](https://poser.pugx.org/jdecool/guard-clauses/downloads.png)](https://packagist.org/packages/jdecool/guard-clauses)
-[![License](https://poser.pugx.org/jdecool/guard-clauses/license.png)](https://packagist.org/packages/jdecool/guard-clauses)
+[![Total Downloads](https://poser.pugx.org/jdecool/guard-clauses/downloads)](https://packagist.org/packages/jdecool/guard-clauses)
+[![License](https://poser.pugx.org/jdecool/guard-clauses/license)](https://packagist.org/packages/jdecool/guard-clauses)
+[![Latest Unstable Version](https://poser.pugx.org/jdecool/guard-clauses/v/unstable)](https://packagist.org/packages/jdecool/guard-clauses)
 
 A PHP library providing a clean and expressive way to implement guard clauses in your code. Built on top of [webmozart/assert](https://github.com/webmozart/assert), this library offers a fluent interface for input validation and defensive programming.
 
