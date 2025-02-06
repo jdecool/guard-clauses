@@ -4,6 +4,6 @@ declare(strict_types=1);
 
 namespace JDecool\GuardClauses;
 
-use RuntimeException;
+use InvalidArgumentException;
 
-class GuardClausesException extends RuntimeException {}
+class GuardClausesException extends InvalidArgumentException {}
