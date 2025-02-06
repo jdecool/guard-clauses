@@ -27,27 +27,27 @@ The library provides a `Guard` class with static methods for various assertions:
 use JDecool\GuardClauses\Guard;
 
 // Basic type checks
-Guard::string($value);
-Guard::integer($value);
-Guard::float($value);
-Guard::boolean($value);
-Guard::object($value);
+$validatedValue = Guard::string($value);
+$validatedValue = Guard::integer($value);
+$validatedValue = Guard::float($value);
+$validatedValue = Guard::boolean($value);
+$validatedValue = Guard::object($value);
 
 // String validations
-Guard::stringNotEmpty($value);
-Guard::contains($string, $substring);
-Guard::startsWith($string, $prefix);
-Guard::endsWith($string, $suffix);
+$validatedValue = Guard::stringNotEmpty($value);
+$validatedValue = Guard::contains($string, $substring);
+$validatedValue = Guard::startsWith($string, $prefix);
+$validatedValue = Guard::endsWith($string, $suffix);
 
 // Numeric comparisons
-Guard::greaterThan($number, $limit);
-Guard::lessThan($number, $limit);
-Guard::range($number, $min, $max);
+$validatedValue = Guard::greaterThan($number, $limit);
+$validatedValue = Guard::lessThan($number, $limit);
+$validatedValue = Guard::range($number, $min, $max);
 
 // Array operations
-Guard::isArray($value);
-Guard::count($array, $expectedCount);
-Guard::keyExists($array, $key);
+$validatedValue = Guard::isArray($value);
+$validatedValue = Guard::count($array, $expectedCount);
+$validatedValue = Guard::keyExists($array, $key);
 
 // And many more...
 ```
@@ -55,7 +55,7 @@ Guard::keyExists($array, $key);
 Each assertion method accepts an optional message parameter that will be used in the exception if the assertion fails:
 
 ```php
-Guard::string($value, 'The value must be a string');
+$validatedValue = Guard::string($value, 'The value must be a string');
 ```
 
 ## Error Handling
