@@ -1,7 +1,7 @@
 # Guard Clauses
 
 [![Latest Stable Version](https://poser.pugx.org/jdecool/guard-clauses/v/stable)](https://packagist.org/packages/jdecool/guard-clauses)
-[![Build Status](https://github.com/jdecool/guard-clauses/workflows/CI/badge.svg?branch=main)](https://github.com/jdecool/guard-clauses/actions)
+[![Build Status](https://github.com/jdecool/guard-clauses/workflows/CI/badge.svg?ref=main)](https://github.com/jdecool/guard-clauses/actions?ref=main)
 [![Total Downloads](https://poser.pugx.org/jdecool/guard-clauses/downloads)](https://packagist.org/packages/jdecool/guard-clauses)
 [![License](https://poser.pugx.org/jdecool/guard-clauses/license)](https://packagist.org/packages/jdecool/guard-clauses)
 [![Latest Unstable Version](https://poser.pugx.org/jdecool/guard-clauses/v/unstable)](https://packagist.org/packages/jdecool/guard-clauses)
